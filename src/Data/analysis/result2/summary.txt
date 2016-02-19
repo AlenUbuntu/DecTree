@@ -1,0 +1,45 @@
+1st test:   original training tree without pruning
+|-----------------------------------------------------------------------------------------------|
+ The prediction accuracy on given data set without pruning the tree is  72.33%
+|-----------------------------------------------------------------------------------------------|
+
+2nd test:     prune 1 node
+|-----------------------------------------------------------------------------------------------|
+
+ |--number of nodes tried to prune:  1 --|--starting node number:  0  --|
+
+ Node selected to prune:  ['XG']
+ The prediction accuracy on given data set after pruning the tree is  76.00%
+|-----------------------------------------------------------------------------------------------|
+
+
+3rd test:     prune  5 nodes
+
+|-----------------------------------------------------------------------------------------------|
+
+ |--number of nodes tried to prune:  5 --|--starting node number:  0  --|
+
+ Node selected to prune:  ['XC', 'XG', 'XL', 'XE', 'XJ']
+ The prediction accuracy on given data set after pruning the tree is  76.00%
+|-----------------------------------------------------------------------------------------------|
+
+4th test:     prune 10 nodes
+
+|-----------------------------------------------------------------------------------------------|
+
+ |--number of nodes tried to prune:  10 --|--starting node number:  0  --|
+
+ Node selected to prune:  ['XB', 'XG', 'XE', 'XQ', 'XH', 'XP', 'XH', 'XR', 'XC', 'XK']
+ The prediction accuracy on given data set after pruning the tree is  72.17%
+|-----------------------------------------------------------------------------------------------|
+
+
+5th test:     prune 20 nodes
+
+|-----------------------------------------------------------------------------------------------|
+
+ |--number of nodes tried to prune:  20 --|--starting node number:  0  --|
+
+ Node selected to prune:  ['XF', 'XQ', 'XP', 'XG', 'XG', 'XH', 'XQ', 'XM', 'XH', 'XG', 'XC', 'XF', 'XD', 'XR', 'XF', 'XG', 'XD', 'XC', 'XC', 'XO']
+ The prediction accuracy on given data set after pruning the tree is  72.33%
+|-----------------------------------------------------------------------------------------------|
